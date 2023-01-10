@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b3d3c23-c13f-41fb-bba3-af77f78a7627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/utils/createData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/src/test/java/com/shanyutu/mysql/MysqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/test/java/com/shanyutu/mysql/MysqlApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +45,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MysqlApplicationTests.createDataTxt">
-    <configuration name="MysqlApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MysqlApplicationTests.insertBigData">
+    <configuration name="MysqlApplicationTests.LoadIntoDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysql" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +56,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
       <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="METHOD_NAME" value="LoadIntoDB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,6 +94,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MysqlApplicationTests.insertBigData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanyutu.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
+      <option name="METHOD_NAME" value="insertBigData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlApplicationTests.insertBigData3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanyutu.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
+      <option name="METHOD_NAME" value="insertBigData3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mysql" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyutu.mysql.MysqlApplication" />
@@ -109,9 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MysqlApplicationTests.insertBigData" />
         <item itemvalue="JUnit.MysqlApplicationTests.createDataTxt" />
+        <item itemvalue="JUnit.MysqlApplicationTests.LoadIntoDB" />
+        <item itemvalue="JUnit.MysqlApplicationTests.insertBigData3" />
         <item itemvalue="JUnit.MysqlApplicationTests.createData" />
-        <item itemvalue="JUnit.MysqlApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673078693568</updated>
       <workItem from="1673078697170" duration="6192000" />
+      <workItem from="1673311699939" duration="7362000" />
     </task>
     <servers />
   </component>
