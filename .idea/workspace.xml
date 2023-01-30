@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b3d3c23-c13f-41fb-bba3-af77f78a7627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScheduledTaskManager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScheduledTaskManager/src/main/java/ScheduledTaskManagerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScheduledTaskManager/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/mysql/dao/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/mysql/dao/PersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/mysql/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/utils/createData.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/main/java/com/shanyutu/mysql/utils/RandomValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/src/test/java/com/shanyutu/mysql/MysqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/test/java/com/shanyutu/mysql/MysqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +56,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MysqlApplicationTests.insertBigData">
-    <configuration name="MysqlApplicationTests.LoadIntoDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\GitHub\shanyutu\mysql\src\main\resources" />
+      <recent name="D:\Desktop\GitHub\shanyutu\mysql\src\main\java\com\shanyutu\mysql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shanyutu.mysql.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test.test">
+    <configuration name="MysqlApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysql" />
       <extension name="coverage">
         <pattern>
@@ -56,24 +85,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
       <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
-      <option name="METHOD_NAME" value="LoadIntoDB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MysqlApplicationTests.createData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shanyutu.mysql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
-      <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
-      <option name="METHOD_NAME" value="createData" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MysqlApplicationTests.insertBigData3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MysqlApplicationTests.insertBigData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysql" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +132,17 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shanyutu.mysql" />
       <option name="MAIN_CLASS_NAME" value="com.shanyutu.mysql.MysqlApplicationTests" />
-      <option name="METHOD_NAME" value="insertBigData3" />
+      <option name="METHOD_NAME" value="insertBigData2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScheduledTaskManager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.test" />
         <item itemvalue="JUnit.MysqlApplicationTests.insertBigData" />
+        <item itemvalue="JUnit.MysqlApplicationTests" />
+        <item itemvalue="JUnit.MysqlApplicationTests.insertBigData2" />
         <item itemvalue="JUnit.MysqlApplicationTests.createDataTxt" />
-        <item itemvalue="JUnit.MysqlApplicationTests.LoadIntoDB" />
-        <item itemvalue="JUnit.MysqlApplicationTests.insertBigData3" />
-        <item itemvalue="JUnit.MysqlApplicationTests.createData" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673078693568</updated>
       <workItem from="1673078697170" duration="6192000" />
-      <workItem from="1673311699939" duration="7362000" />
+      <workItem from="1673311699939" duration="21122000" />
+      <workItem from="1675066509814" duration="5468000" />
     </task>
     <servers />
   </component>

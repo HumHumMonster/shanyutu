@@ -3,6 +3,7 @@ spring:
     username: root
     password: 'Zhx980906+1s'
     # serverTimezone=UTC 解决时区问题
-    url: jdbc:mysql://124.221.77.111:3306/shanyutu?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://124.221.77.111:3306/shanyutu?useServerPrepStmts=false&rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8
+#    url: jdbc:mysql://localhost:3306/shanyutu?useServerPrepStmts=false&rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8
     # mysql8 以上使用 cj
     driver-class-name: com.mysql.cj.jdbc.Driver
